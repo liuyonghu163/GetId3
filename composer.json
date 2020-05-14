@@ -19,9 +19,17 @@
   "require": {
     "php": ">=5.3.3"
   },
+  "conflict": {
+    "james-heinrich/getid3": "*"
+  },
   "autoload": {
     "psr-4": {
       "GetId3\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.1-dev"
     }
   }
 }
