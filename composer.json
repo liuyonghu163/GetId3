@@ -1,5 +1,5 @@
 {
-  "name": "liuyonghu163/tp6_getId3",
+  "name": "liuyonghu163/tp6_etid3",
   "description": "This fork of GetId3 library updates to TP6, adds namespaces and makes it installable by composer",
   "keywords": [
     "getid3",
