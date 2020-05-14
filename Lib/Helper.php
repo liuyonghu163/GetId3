@@ -1845,8 +1845,7 @@ class Helper
         if ($capitaliseFirstChar) {
             $origin = ucfirst($origin);
         }
-       // $func = create_function('$c', 'return strtoupper($c[1]);');
-        $func=function (){strtoupper($c[1]);};
+        $func=function ($c){strtoupper($c[1]);};
         return preg_replace_callback('/'.$cahrToReplace.'([a-z])/', $func, $origin);
     }
 }
