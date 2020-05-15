@@ -7,7 +7,7 @@
     "tp6"
   ],
   "type": "library",
-  "license": "GPL",
+  "license": "MIT",
   "homepage": "http://www.getid3.org",
   "authors": [
     {
