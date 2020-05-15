@@ -7,7 +7,7 @@
     "tp6"
   ],
   "type": "library",
-  "license": "MIT",
+  "license": "GPL",
   "homepage": "http://www.getid3.org",
   "authors": [
     {
@@ -22,6 +22,11 @@
   "autoload": {
     "psr-4": {
       "GetId3\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.1-dev"
     }
   }
 }
