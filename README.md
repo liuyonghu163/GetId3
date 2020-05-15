@@ -24,7 +24,7 @@ For commercial license read [Resources/doc/license.commercial.txt](Resources/doc
 ##### Run composer to install the library:
 
 ``` bash
-$ composer require "liuyonghu163/getid3: ^2.1@dev"
+$ composer require "liuyonghu163/tp6-getid3: ^2.1@dev"
 ```
 
 Quick use example reading audio properties
